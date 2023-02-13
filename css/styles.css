@@ -112,7 +112,8 @@ img {
 .hero-section {
   background-color: var(--color-brand);
   text-align: center;
-  padding: 120px 0;
+  padding-top: 188px;
+  padding-bottom: 188px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -181,6 +182,9 @@ img {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+.works {
+  padding-top: 0;
+}
 
 /* Our Team */
 .our-team {
@@ -194,13 +198,15 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 .team {
-  padding: 32px 16px;
+  padding: 32px 0;
   text-align: center;
 }
 
 /* Footer */
 footer {
   background-color: var(--color-brand);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-logo {
   color: var(--color-light);
@@ -211,15 +217,11 @@ footer {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  margin-bottom: 16px;
 }
 .footer-p {
   color: var(--color-accent);
   max-width: 264px;
-}
-.conteiner-footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  margin-top: 16px;
 }
 
 /* Portfolio */
