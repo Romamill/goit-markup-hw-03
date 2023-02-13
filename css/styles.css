@@ -150,14 +150,14 @@ img {
   gap: 24px;
 }
 .feature-li {
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .title-text {
   margin-top: 8px;
 }
 /* What are we doing */
 .work-li {
-  flex-basis: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 2 * 24px) / 3);
   border: 1px solid var(--color-accent);
 }
 
@@ -188,7 +188,7 @@ img {
 }
 .background-our-team {
   background-color: var(--color-secondary);
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
@@ -226,31 +226,35 @@ footer {
 
 /* Filters */
 
-.button-filter {
-  margin-top: 96px;
-  margin-bottom: 72px;
+.portfolio-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
+
 .menu-button {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-bottom: 72px;
 }
 .menu-content {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 48px 24px;
   flex-wrap: wrap;
 }
 .button-li {
 }
 .menu-item {
-  flex-basis: calc((100% - 192px) / 9);
-  margin-bottom: 48px;
+  flex-basis: calc((100% - 2 * 24px) / 3);
 }
 .menu-list {
   padding-top: 32px;
   padding-bottom: 32px;
   padding-left: 16px;
+  border-right: 1px solid var(--color-accent);
+  border-left: 1px solid var(--color-accent);
+  border-bottom: 1px solid var(--color-accent);
 }
 .portfolio-button {
   font-family: 'Roboto', sans-serif;
