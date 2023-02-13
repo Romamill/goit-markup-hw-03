@@ -189,7 +189,7 @@ img {
 .background-our-team {
   background-color: var(--color-secondary);
   flex-basis: calc((100% - 72px) / 4);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
@@ -224,6 +224,34 @@ footer {
 
 /* Portfolio */
 
+/* Filters */
+
+.button-filter {
+  margin-top: 96px;
+  margin-bottom: 72px;
+}
+.menu-button {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.menu-content {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.button-li {
+}
+.menu-item {
+  flex-basis: calc((100% - 192px) / 9);
+  margin-bottom: 48px;
+}
+.menu-list {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+}
 .portfolio-button {
   font-family: 'Roboto', sans-serif;
   color: var(--color-iris);
@@ -235,6 +263,7 @@ footer {
   border-radius: 4px;
   cursor: pointer;
   letter-spacing: 0.04em;
+  padding: 12px 24px;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
